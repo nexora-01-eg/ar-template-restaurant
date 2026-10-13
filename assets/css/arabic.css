@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap');
+
+/* تعريب قالب Story — مطعم الديوان */
+body, input, textarea, select,
+h1, h2, h3, h4, h5, h6,
+.button, input[type="submit"], input[type="button"] {
+  font-family: 'Cairo', 'Tajawal', sans-serif !important;
+  letter-spacing: 0 !important;
+}
+
+h1, h2, h3 { font-weight: 800; }
+
+.banner .content,
+.spotlight .content { text-align: right; }
+
+.gallery article .caption { text-align: right; }
+
+ul.actions { text-align: center; }
+
+/* لمسة دافئة للديوان */
+.button.primary, input[type="submit"].primary,
+.banner .button.big {
+  background-color: #b8860b;
+  border-color: #b8860b;
+}
